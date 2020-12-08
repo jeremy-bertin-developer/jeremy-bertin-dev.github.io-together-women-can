@@ -111,17 +111,13 @@ header {
 }
 
 .row-about-us {
-  margin-top: 100px;
 }
 
 .card-about-us {
-  text-shadow: 0px 0px;
-  box-shadow: inset 0px 0px;
-  margin-bottom: 80px;
+  height: 100%;
 }
 
 .avatar-about-us {
-  margin-top: -80px;
 }
 
 #donate {
@@ -139,7 +135,7 @@ header {
 
 @media (max-width: 992px) {
   .title-section-our-focus {
-    height: 100px;
+    height: 150px;
   }
 }
 
@@ -198,7 +194,7 @@ header {
 
 @media (max-width: 992px) {
   .title-selection-challenge {
-    height: 100px;
+    height: 150px;
   }
 }
 
@@ -209,7 +205,7 @@ header {
 
 @media (max-width: 992px) {
   .title-section-solution {
-    height: 100px;
+    height: 150px;
   }
 }
 
@@ -220,24 +216,24 @@ title-section-our-mission {
 
 .title-section-our-mission {
   height: 300px;
-  background: url('../../assets/img/maxime-niyomwungeri-z-lNmXoXt-k-unsplash.1.png?h=a503400143f9bdad1783bcbf08366769') top / cover
+  background: url('../../assets/img/maxime-niyomwungeri-z-lNmXoXt-k-unsplash.1.png?h=5cacd5b887072c356af778038b5aa48d') top / cover
     no-repeat;
 }
 
 @media (max-width: 992px) {
   .title-section-our-mission {
-    height: 100px;
+    height: 150px;
   }
 }
 
 .title-section-our-impact {
   height: 300px;
-  background: url('../../assets/img/annie-spratt-SPS796v4KmM-unsplash.1.png?h=440bee825a163a744a6803f18a9314d4') center / cover no-repeat;
+  background: url('../../assets/img/annie-spratt-SPS796v4KmM-unsplash.2.png?h=809e24d878ff514f4b0fbc458b98ef12') center / cover no-repeat;
 }
 
 @media (max-width: 992px) {
   .title-section-our-impact {
-    height: 100px;
+    height: 150px;
   }
 }
 
@@ -249,18 +245,18 @@ title-section-our-mission {
 
 @media (max-width: 992px) {
   .title-section-partners {
-    height: 100px;
+    height: 150px;
   }
 }
 
 .title-section-about-us {
   height: 300px;
-  background: url('../../assets/img/hudson-hintze-vpxeE7s-my4-unsplash.1.png?h=2b83c4823c5af38d4d617a6d6d36c59c') center / cover no-repeat;
+  background: url('../../assets/img/hudson-hintze-vpxeE7s-my4-unsplash.2.png?h=13ec02aff297c80216e2f2fa0a1cbd6c') center / cover no-repeat;
 }
 
 @media (max-width: 992px) {
   .title-section-about-us {
-    height: 100px;
+    height: 150px;
   }
 }
 
@@ -279,4 +275,8 @@ title-section-our-mission {
   min-height: 100%;
   margin-right: 0px;
   margin-left: 0px;
+}
+
+.card-focus {
+  height: 100%;
 }
