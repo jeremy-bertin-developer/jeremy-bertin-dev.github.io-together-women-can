@@ -22,7 +22,7 @@ body {
 }
 
 header {
-  background: url("../../assets/img/ken-steven-9pForwRXkA4-unsplash.jpg?h=3b9e53d194615eb5be3f051838820152") center / cover no-repeat;
+  background: url('../../assets/img/ken-steven-9pForwRXkA4-unsplash.jpg?h=3b9e53d194615eb5be3f051838820152') center / cover no-repeat;
   width: 100%;
   min-height: 105vh;
   filter: grayscale(40%);
@@ -60,7 +60,8 @@ header {
 
 .title-section {
   height: 85px;
-  background: url("../../assets/img/ninno-jackjr-CG6Gd__QIOY-unsplash.copie.png?h=cc17d687a3a1e68eeebfb3a6a9a68947") center / cover no-repeat;
+  background: url('../../assets/img/ninno-jackjr-CG6Gd__QIOY-unsplash.copie.png?h=cc17d687a3a1e68eeebfb3a6a9a68947') center / cover
+    no-repeat;
 }
 
 #solution {
@@ -75,7 +76,7 @@ header {
 
 .title-section-our-focus {
   height: 300px;
-  background: url("../../assets/img/annie-spratt-m0DUL38R49Y-unsplash.1.png?h=c78965b6d4b250ec7d6cdcd5abe1e5e6") top / cover no-repeat;
+  background: url('../../assets/img/annie-spratt-m0DUL38R49Y-unsplash.1.png?h=c78965b6d4b250ec7d6cdcd5abe1e5e6') top / cover no-repeat;
 }
 
 .card-solution {
@@ -192,7 +193,7 @@ header {
 
 .title-selection-challenge {
   height: 300px;
-  background: url("../../assets/img/annie-spratt-1YnBzhJISg4-unsplash.1.png?h=83e871f799e0172ca2a0f731d1249eba") top / cover no-repeat;
+  background: url('../../assets/img/annie-spratt-1YnBzhJISg4-unsplash.1.png?h=83e871f799e0172ca2a0f731d1249eba') top / cover no-repeat;
 }
 
 @media (max-width: 992px) {
@@ -203,7 +204,7 @@ header {
 
 .title-section-solution {
   height: 300px;
-  background: url("../../assets/img/annie-spratt-jmECplToD0c-unsplash.1.png?h=829e5145bb79b3ecb8d90e790ecc9d8a") top / cover no-repeat;
+  background: url('../../assets/img/annie-spratt-jmECplToD0c-unsplash.2.png?h=6254b66cd5b3c9de0e6cf6d0e8365969') top / cover no-repeat;
 }
 
 @media (max-width: 992px) {
@@ -214,12 +215,13 @@ header {
 
 title-section-our-mission {
   height: 300px;
-  background: url("../../assets/img/annie-spratt-SPS796v4KmM-unsplash.1.png?h=440bee825a163a744a6803f18a9314d4") top / cover no-repeat;
+  background: url('../../assets/img/annie-spratt-SPS796v4KmM-unsplash.1.png?h=440bee825a163a744a6803f18a9314d4') top / cover no-repeat;
 }
 
 .title-section-our-mission {
   height: 300px;
-  background: url("../../assets/img/maxime-niyomwungeri-z-lNmXoXt-k-unsplash.1.png?h=a503400143f9bdad1783bcbf08366769") top / cover no-repeat;
+  background: url('../../assets/img/maxime-niyomwungeri-z-lNmXoXt-k-unsplash.1.png?h=a503400143f9bdad1783bcbf08366769') top / cover
+    no-repeat;
 }
 
 @media (max-width: 992px) {
@@ -230,7 +232,7 @@ title-section-our-mission {
 
 .title-section-our-impact {
   height: 300px;
-  background: url("../../assets/img/annie-spratt-SPS796v4KmM-unsplash.1.png?h=440bee825a163a744a6803f18a9314d4") center / cover no-repeat;
+  background: url('../../assets/img/annie-spratt-SPS796v4KmM-unsplash.1.png?h=440bee825a163a744a6803f18a9314d4') center / cover no-repeat;
 }
 
 @media (max-width: 992px) {
@@ -241,7 +243,8 @@ title-section-our-mission {
 
 .title-section-partners {
   height: 300px;
-  background: url("../../assets/img/womanizer-wow-tech-8oB43mw658c-unsplash.1.png?h=10bbd30f2cb5ca61a16e6b81e1a93f0d") center / cover no-repeat;
+  background: url('../../assets/img/womanizer-wow-tech-8oB43mw658c-unsplash.1.png?h=10bbd30f2cb5ca61a16e6b81e1a93f0d') center / cover
+    no-repeat;
 }
 
 @media (max-width: 992px) {
@@ -252,7 +255,7 @@ title-section-our-mission {
 
 .title-section-about-us {
   height: 300px;
-  background: url("../../assets/img/hudson-hintze-vpxeE7s-my4-unsplash.1.png?h=2b83c4823c5af38d4d617a6d6d36c59c") center / cover no-repeat;
+  background: url('../../assets/img/hudson-hintze-vpxeE7s-my4-unsplash.1.png?h=2b83c4823c5af38d4d617a6d6d36c59c') center / cover no-repeat;
 }
 
 @media (max-width: 992px) {
@@ -263,7 +266,7 @@ title-section-our-mission {
 
 .title-section-donate {
   height: 300px;
-  background: url("../../assets/img/kat-yukawa-K0E6E0a0R3A-unsplash.1.png?h=c57c25e5f29aeea7961ac0ecff5da503") center / cover no-repeat;
+  background: url('../../assets/img/kat-yukawa-K0E6E0a0R3A-unsplash.1.png?h=c57c25e5f29aeea7961ac0ecff5da503') center / cover no-repeat;
 }
 
 @media (max-width: 992px) {
@@ -272,3 +275,8 @@ title-section-our-mission {
   }
 }
 
+.our-focus-row {
+  min-height: 100%;
+  margin-right: 0px;
+  margin-left: 0px;
+}

@@ -1,4 +1,4 @@
-$('.nav-link, .icon-arrow-up-wrapper').on('click',function() {
+$('.nav-link-classic, .icon-arrow-up-wrapper').on('click',function() {
   $('.navbar-collapse').collapse('hide');
   $hamburger.removeClass("is-active");
 });
