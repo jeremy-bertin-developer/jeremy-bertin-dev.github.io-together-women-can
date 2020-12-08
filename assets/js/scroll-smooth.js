@@ -10,7 +10,7 @@
          window.location.hash = target;
         });
       } 
-        else if (window.matchMedia('(min-width: 993px) and (max-width: 1199px)').matches) {
+        else if (window.matchMedia('(min-width: 993px)').matches) {
             var target = this.hash,
         $target = $(target);
 
@@ -33,7 +33,7 @@
         $target = $(target);
 
        $('html, body').stop().animate({
-         'scrollTop': $target.offset().top - 330
+         'scrollTop': $target.offset().top - 300
         }, 900, 'swing', function () {
          window.location.hash = target;
         });
