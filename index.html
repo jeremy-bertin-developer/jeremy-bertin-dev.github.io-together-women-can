@@ -7,37 +7,36 @@
     <link rel="icon" type="image/x-icon" href="assets/img/logo_twc_no_background.ico" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css" />
-    <link rel="stylesheet" href="assets/css/Footer-Basic.css?h=d15dfcb68fabe0442ff06063b052477c" />
+    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css?h=db5fbbc34070d36ea9b98958ab6f065c" />
+    <link rel="stylesheet" href="assets/css/Footer-Basic.css?h=0c7ceb04e2b7bdbbf40b6e3742c9d4f1" />
     <link rel="stylesheet" href="assets/css/hamburger.css?h=568ffc73f16527bfc2e1c57fd915f4df" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
-    <link rel="stylesheet" href="assets/css/styles.css?h=06b911cbe539333ed971c11eef3063af" />
+    <link rel="stylesheet" href="assets/css/Off-Canvas-Sidebar-Drawer-Navbar.css?h=9ed0fdbb051daea6e6d9d97d100e8e8a" />
+    <link rel="stylesheet" href="assets/css/styles.css?h=78ee40edb518e42dd7628e4228675ce8" />
   </head>
 
-  <body style="font-family: Montserrat, sans-serif; font-weight: 500">
+  <body class="m-0 p-0">
     <div class="d-lg-none d-xl-none icon-arrow-up-wrapper">
-      <a href="#home"><i class="fa fa-arrow-up icon-arrow-up" style="color: #353842"></i></a>
+      <a href="#home"><i class="fa fa-arrow-up icon-arrow-up"></i></a>
     </div>
-    <nav class="navbar navbar-light navbar-expand-md sticky-top bg-light shadow-lg">
+    <nav class="navbar navbar-light navbar-expand-md sticky-top bg-light d-none d-lg-block d-xl-block shadow-lg">
       <div class="container-fluid">
-        <a class="navbar-brand" style="margin: 0px; padding: 0px">
-          <img
-            class="img-fluid d-block d-sm-block d-md-block d-lg-block d-xl-none"
+        <a class="navbar-brand"
+          ><img
+            class="img-fluid d-block d-sm-block d-md-block d-lg-block d-xl-none navbar-brand-small"
             src="assets/img/logo_twc_no%20background.png?h=69c341939250a794a7e0452c18f46fe6"
-            width="25px"
-            style="margin: 0px; padding: 0px"
-          />
-          <img
-            class="img-fluid d-none d-sm-none d-md-none d-lg-none d-xl-block"
+            width="" /><img
+            class="img-fluid d-none d-sm-none d-md-none d-lg-none d-xl-block navbar-brand-big"
             src="assets/img/logo_twc_no%20background.png?h=69c341939250a794a7e0452c18f46fe6"
-            width="60px"
-          />
-        </a>
-        <button data-toggle="collapse" class="navbar-toggler hamburger hamburger--arrowturn" data-target="#navcol-1">
+            width=""
+            loading="lazy" /></a
+        ><button data-toggle="collapse" class="navbar-toggler hamburger hamburger--arrowturn" data-target="#navcol-1">
           <span class="hamburger-box"><span class="hamburger-inner"></span></span>
         </button>
-        <div class="collapse navbar-collapse" id="navcol-1" style="width: 100%">
+        <div class="collapse navbar-collapse" id="navcol-1">
           <ul class="nav navbar-nav mx-auto">
             <li class="nav-item text-dark mr-2"><a class="nav-link active text-dark pl-2 nav-link-classic" href="#home">Home</a></li>
             <li class="nav-item text-dark mr-2"><a class="nav-link active text-dark pl-2 nav-link-classic" href="#our-focus">Focus</a></li>
@@ -48,8 +47,7 @@
               <a class="dropdown-toggle nav-link text-dark pl-2" data-toggle="dropdown" aria-expanded="true" href="#">Solution&nbsp;</a>
               <div class="dropdown-menu border-0 shadow-lg">
                 <a class="dropdown-item text-dark nav-link-classic" href="#solution">Solution</a
-                ><a class="dropdown-item text-dark nav-link-classic" href="#our-mission">Our Mission</a
-                ><a class="dropdown-item text-dark nav-link-classic" href="">Our Vision</a>
+                ><a class="dropdown-item text-dark nav-link-classic" href="#our-mission">&nbsp;Our Mission</a>
               </div>
             </li>
             <li class="nav-item dropdown show mr-2 drop-down-menu">
@@ -62,24 +60,62 @@
             <li class="nav-item text-dark mr-2">
               <a class="nav-link active text-dark pl-2 nav-link-classic" href="#about-us">About Us</a>
             </li>
-            <li class="nav-item text-light pulse animated infinite mr-2 button-donate" style="background: #c08269">
+            <li class="nav-item text-light pulse animated infinite mr-2 button-donate">
               <a class="nav-link active text-light nav-link-classic" href="#donate">Donate</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
+    <!-- Start: Off-Canvas Sidebar-Drawer Navbar -->
+    <nav class="navbar navbar-light fixed-top bg-light d-lg-none d-xl-none off-canvas" data-right-drawer="0" data-open-drawer="1">
+      <div class="container-fluid flex-column">
+        <button class="btn btn-dark drawer-knob" type="button" data-open="drawer"><i class="fas fa-bars"></i></button>
+        <div class="d-flex justify-content-between brand-line">
+          <a class="navbar-brand"
+            ><img
+              class="img-fluid"
+              src="assets/img/logo_twc_no%20background.png?h=69c341939250a794a7e0452c18f46fe6"
+              width="30px"
+              loading="lazy" /></a
+          ><button class="btn btn-dark" type="button" data-dismiss="drawer">
+            <span class="sr-only">Toggle Navigation&nbsp;</span><i class="fas fa-times"></i>
+          </button>
+        </div>
+        <ul class="nav navbar-nav flex-column drawer-menu pl-2">
+          <li class="nav-item"><a class="nav-link active pl-2 nav-link-classic" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link active pl-2 nav-link-classic" href="#our-focus">Focus</a></li>
+          <li class="nav-item"><a class="nav-link active pl-2 nav-link-classic" href="#challenge">Challenge</a></li>
+          <li class="nav-item dropdown show mr-2 drop-down-menu">
+            <a class="dropdown-toggle nav-link text-dark pl-2" data-toggle="dropdown" aria-expanded="true" href="#">Solution&nbsp;</a>
+            <div class="dropdown-menu border-0 shadow-lg">
+              <a class="dropdown-item text-dark nav-link-classic pl-2" href="#solution">Solution</a
+              ><a class="dropdown-item text-dark nav-link-classic pl-2" href="#our-mission">Our Mission</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown show mr-2 drop-down-menu">
+            <a class="dropdown-toggle nav-link text-dark pl-2" data-toggle="dropdown" aria-expanded="true" href="#">Impact&nbsp;</a>
+            <div class="dropdown-menu border-0 shadow-lg">
+              <a class="dropdown-item text-dark nav-link-classic pl-2" href="#impact">Impact</a
+              ><a class="dropdown-item text-dark nav-link-classic pl-2" href="#partners">Partners</a>
+            </div>
+          </li>
+          <li class="nav-item text-dark mr-2"><a class="nav-link active text-dark pl-2 nav-link-classic" href="#about-us">About Us</a></li>
+          <li class="nav-item text-light pulse animated infinite mr-2 button-donate">
+            <a class="nav-link active text-light nav-link-classic" href="#donate">Donate</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- End: Off-Canvas Sidebar-Drawer Navbar -->
     <section id="home">
       <div class="text-center d-none d-sm-none d-md-none d-lg-block" id="header-desktop">
-        <header>
+        <header class="lazy">
           <div class="container-fluid header-container">
             <div class="row header-row">
               <div class="col d-lg-flex justify-content-lg-center align-items-lg-center mt-5">
                 <div class="d-lg-flex justify-content-lg-center align-items-lg-center mt-5">
-                  <h1
-                    class="display-4 text-light d-lg-flex justify-content-lg-center align-items-lg-center header-heading"
-                    style="margin-top: 0px; font-weight: 500"
-                  >
+                  <h1 class="display-4 text-light d-lg-flex justify-content-lg-center align-items-lg-center header-heading">
                     9 women die of cervical cancer in Kenya every day. <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We
                     need to change that!<br />
                   </h1>
@@ -88,13 +124,13 @@
             </div>
           </div>
         </header>
-        <div class="container-fluid header-container py-5" style="background: #f9f9f9">
+        <div class="container-fluid header-container py-3">
           <div class="row header-row">
             <div class="col-12 col-lg-8 offset-0 offset-lg-2">
-              <div class="card text-center border-0 bg-light">
+              <div class="card text-center border-0 bg-transparent">
                 <div class="card-body">
-                  <h3 style="color: #c08269; font-weight: 600; line-height: 45px">
-                    Together Women Can<span style="color: #292b2c; font-weight: 500"
+                  <h3 class="info-text-header">
+                    Together Women Can<span class="info-text-header-span"
                       >&nbsp;builds strong partnerships to provide women access to health tools, sexual health education and treatments to
                       help eradicate cervical cancer while promoting women´s empowerment.</span
                     >
@@ -106,7 +142,7 @@
         </div>
       </div>
       <div class="d-block d-sm-block d-md-block d-lg-none d-xl-none" id="header-small-devices">
-        <header>
+        <header class="lazy">
           <div class="container-fluid header-container">
             <div class="row header-row">
               <div class="col text-center">
@@ -117,13 +153,13 @@
             </div>
           </div>
         </header>
-        <div class="container-fluid header-container pt-5" style="background: #f9f9f9; /*padding-top: 80px;*/">
+        <div class="container-fluid header-container">
           <div class="row header-row">
             <div class="col-12 col-lg-8 offset-0 offset-lg-2">
-              <div class="card text-center border-0 bg-light">
+              <div class="card text-center border-0 bg-transparent">
                 <div class="card-body">
-                  <h4 style="color: #c08269">
-                    Together Women Can<span style="color: #292b2c; font-weight: normal"
+                  <h4 class="info-text-header">
+                    Together Women Can<span class="info-text-header-span"
                       >&nbsp;builds strong partnerships to provide women access to health tools, sexual health education and treatments to
                       help eradicate cervical cancer while promoting women´s empowerment.</span
                     >
@@ -135,12 +171,11 @@
         </div>
       </div>
     </section>
-    <section id="our-focus" style="background: #f9f9f9">
-      <div class="row m-0 title-section-our-focus">
-        <div class="col-12 col-md-6 offset-md-6 d-flex d-lg-flex justify-content-center align-items-center">
+    <section id="our-focus">
+      <div class="row m-0 title-section-our-focus lazy">
+        <div class="col-12 col-lg-6 offset-lg-6 d-flex d-lg-flex justify-content-center align-items-center">
           <h2
-            class="display-4 text-light d-flex justify-content-center align-items-center justify-content-lg-center align-items-lg-center"
-            style="font-family: Montserrat, sans-serif; font-weight: 500"
+            class="display-4 text-center text-light d-flex d-lg-flex justify-content-center align-items-center justify-content-lg-center align-items-lg-center heading-title-section"
           >
             Our Focus
           </h2>
@@ -149,9 +184,9 @@
       <div class="container pt-3">
         <div class="row our-focus-row">
           <div class="col-12 offset-0">
-            <div class="card text-center border-0 bg-light">
+            <div class="card text-center border-0 bg-transparent">
               <div class="card-body">
-                <h3 style="color: #c08269; font-weight: 600; line-height: 34px; font-size: 24px">
+                <h3 class="description-full-brown">
                   <strong
                     >We want to equip women in the Bungoma county in western Kenya with the health tools needed to fight cervical
                     cancer.</strong
@@ -163,12 +198,13 @@
         </div>
         <div class="row pt-3">
           <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 pb-5">
-            <div class="card text-center border-0 shadow-lg card-focus">
+            <div class="card text-center border-0 shadow-lg">
               <div class="card-body">
                 <img
                   class="img-fluid mb-3"
                   width="150px"
                   src="assets/img/logo.our.focus.education.png?h=6ddfd34ee7035c905a0d42ae672aec4d"
+                  loading="lazy"
                 />
                 <h4 class="card-title">Education</h4>
                 <p class="card-text text-dark">Providing sexual health and cervical cancer education and awareness</p>
@@ -182,6 +218,7 @@
                   class="img-fluid mb-3"
                   width="150px"
                   src="assets/img/logo.our.focus.prevention.png?h=5a93f89808fe2ac0541b8661cc9ef7d7"
+                  loading="lazy"
                 />
                 <h4 class="card-title">Prevention</h4>
                 <p class="card-text text-dark">Raising awareness on HPV vaccination in young girls and boys is crucial</p>
@@ -195,6 +232,7 @@
                   class="img-fluid mb-3"
                   width="150px"
                   src="assets/img/logo.our.focus.diagnosis..png?h=4c7bd42e4b85213949532fea76b7f6e3"
+                  loading="lazy"
                 />
                 <h4 class="card-title">Diagnosis</h4>
                 <p class="card-text text-dark">Screening is able to detect early lesions that are easily treatable</p>
@@ -208,6 +246,7 @@
                   class="img-fluid mb-3"
                   width="150px"
                   src="assets/img/logo.our.focus.treatment.png?h=6d52efedd7d623594b3e6ebebb66cdf3"
+                  loading="lazy"
                 />
                 <h4 class="card-title">Treatment</h4>
                 <p class="card-text text-dark">Late stage cancer requires treatment, palliative care and mental support</p>
@@ -217,12 +256,11 @@
         </div>
       </div>
     </section>
-    <section id="challenge" style="background: #f9f9f9">
-      <div class="row m-0 title-selection-challenge">
+    <section id="challenge">
+      <div class="row m-0 title-selection-challenge lazy">
         <div class="col-12 col-lg-6 offset-lg-6 d-flex d-lg-flex justify-content-center align-items-center">
           <h2
-            class="display-4 text-center text-light d-flex d-lg-flex justify-content-center align-items-center justify-content-lg-center align-items-lg-center"
-            style="font-weight: 500"
+            class="display-4 text-center text-light d-flex d-lg-flex justify-content-center align-items-center justify-content-lg-center align-items-lg-center heading-title-section"
           >
             Challenge
           </h2>
@@ -231,15 +269,15 @@
       <div class="container py-3">
         <div class="row header-row">
           <div class="col-12">
-            <div class="card text-center border-0 bg-light">
+            <div class="card text-center border-0 bg-transparent">
               <div class="card-body">
-                <h5 class="mb-3" style="color: #c08269; font-size: 24px; font-weight: 600; line-height: 34px">
+                <h5 class="description-full-brown">
                   <strong
                     >In Kenya the lives of more than 3000 wives, daughters, mothers and grandmothers are cut short every year by cervical
                     cancer and this number is foreseen to grow by 2025.&nbsp;</strong
                   ><br />
                 </h5>
-                <h6 style="font-weight: 600; color: #121416; line-height: 24px; font-size: 16px">
+                <h6 class="description-full-black">
                   Lack of awareness and poor access to cervical cancer screening in rural areas are the biggest challenges to date. Only 3%
                   of women in Kenya take part in cervical cancer screening. For their sisters in wealthier countries this number is
                   70%.&nbsp;Why this huge inequality? Fear, economic uncertainty, stigma and misinformation in the society may hinder access
@@ -250,24 +288,26 @@
           </div>
         </div>
         <div class="row">
-          <div class="col pb-5">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 pb-5">
             <div class="card text-center border-0 shadow-lg">
               <div class="card-body d-flex justify-content-center align-items-center">
                 <img
                   class="img-fluid d-flex justify-content-center align-items-center"
                   width="300px"
                   src="assets/img/3000.png?h=4ddc7cf104dd3e490a79648449b1d3a3"
+                  loading="lazy"
                 />
               </div>
             </div>
           </div>
-          <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 pb-5">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 pb-5">
             <div class="card text-center border-0 shadow-lg">
               <div class="card-body d-flex justify-content-center align-items-center">
                 <img
                   class="img-fluid d-flex justify-content-center align-items-center"
                   width="300px"
                   src="assets/img/3.percent.png?h=4ed1367c7684c603a26eae04ba44bf44"
+                  loading="lazy"
                 />
               </div>
             </div>
@@ -277,7 +317,7 @@
           <div class="col-12">
             <div class="card text-center border-0 bg-transparent">
               <div class="card-body">
-                <h5 style="font-weight: 600; color: #c08269; line-height: 34px; font-size: 24px">
+                <h5 class="description-full-brown">
                   But we also have good news! Eradicating this disease within our lifetime is possible. Lets work together now to save the
                   lives of thousands of women tomorrow.<br />
                 </h5>
@@ -288,11 +328,10 @@
       </div>
     </section>
     <section id="solution">
-      <div class="row m-0 title-section-solution">
+      <div class="row m-0 title-section-solution lazy">
         <div class="col-12 col-lg-6 offset-lg-6 d-flex d-lg-flex justify-content-center align-items-center">
           <h2
-            class="display-4 text-center text-light d-flex d-lg-flex justify-content-center align-items-center justify-content-lg-center align-items-lg-center"
-            style="font-weight: 500"
+            class="display-4 text-center text-light d-flex d-lg-flex justify-content-center align-items-center justify-content-lg-center align-items-lg-center heading-title-section"
           >
             Solution
           </h2>
@@ -301,12 +340,9 @@
       <div class="container pt-3">
         <div class="row header-row">
           <div class="col-12">
-            <div class="card text-center border-0 bg-light">
+            <div class="card text-center border-0 bg-transparent">
               <div class="card-body">
-                <h5
-                  class="d-flex justify-content-center align-items-center"
-                  style="font-weight: 600; color: #c08269; line-height: 34px; font-size: 24px"
-                >
+                <h5 class="d-flex justify-content-center align-items-center description-full-brown">
                   <strong
                     >We would like to hold women and their families by the hand and support them through the journey of cervical cancer
                     prevention.&nbsp;</strong
@@ -317,20 +353,23 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-lg-6 col-xl-6 mb-5">
-            <div class="card shadow-lg card-solution">
-              <div class="card-body d-xl-flex justify-content-xl-center align-items-xl-center border-0">
+          <div class="col-lg-6 col-xl-6 pb-5">
+            <div class="card shadow-lg border-0">
+              <div
+                class="card-body d-lg-flex d-xl-flex justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center"
+              >
                 <img
-                  class="img-fluid d-xl-flex justify-content-xl-center align-items-xl-center"
+                  class="img-fluid d-flex justify-content-center align-items-center"
                   src="assets/img/logo.solution.3.png?h=2b848ade44c0ef7c42e0e695167f14d2"
+                  loading="lazy"
                 />
               </div>
             </div>
           </div>
-          <div class="col-lg-6 col-xl-6 offset-0 d-flex justify-content-center align-items-center mb-5">
+          <div class="col-lg-6 col-xl-6 offset-0 d-flex justify-content-center align-items-center pb-5">
             <div class="card text-center d-flex justify-content-center align-items-center border-0 bg-transparent">
               <div class="card-body d-flex justify-content-center align-items-center">
-                <p class="d-flex justify-content-center align-items-center text-dark" style="font-size: 16px; line-height: 24px">
+                <p class="d-flex justify-content-center align-items-center text-dark paragraph-full-dark">
                   The journey starts by educating Community Health Volunteers (CHVs) on sexual health and cervical cancer. With our work we
                   enable CHVs to raise awareness about cervical cancer prevention and treatment among families in the rural communities of
                   the Bungoma county in western Kenya. CHVs will identify patients and connect them to local health clinics where they can
@@ -342,7 +381,7 @@
           </div>
         </div>
       </div>
-      <div class="container">
+      <div class="container pb-3">
         <div class="row header-row">
           <div class="col-12">
             <div class="card text-center border-0 bg-transparent">
@@ -355,7 +394,7 @@
         </div>
         <div class="row">
           <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex justify-content-center align-items-center">
-            <p class="text-center d-flex justify-content-center align-items-center mt-3 text-dark" style="line-height: 24px">
+            <p class="text-center d-flex justify-content-center align-items-center text-dark paragraph-full-dark">
               Thousands of lives will be saved when women and their families understand the importance of disease prevention within the
               social and economic context they live in. With sexual health education, cervical cancer awareness and access to healthcare, we
               empower women to take their health in their own hands and to take informed decisions about their wellbeing in the future.
@@ -365,17 +404,19 @@
       </div>
     </section>
     <section id="our-mission">
-      <div class="row m-0 title-section-our-mission">
+      <div class="row m-0 title-section-our-mission lazy">
         <div class="col-12 col-lg-6 offset-lg-6 d-flex d-lg-flex justify-content-center align-items-center">
-          <h2 class="display-4 text-center text-light d-flex justify-content-center align-items-center">Our Mission</h2>
+          <h2 class="display-4 text-center text-light d-flex justify-content-center align-items-center heading-title-section">
+            Our Mission
+          </h2>
         </div>
       </div>
       <div class="container">
         <div class="row header-row pt-5">
-          <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 pb-5">
-            <div class="card mb-5 border-0 shadow-lg bg-transparent card-vision" style="height: 100%">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 pb-5">
+            <div class="card mb-5 border-0 shadow-lg bg-transparent card-vision">
               <div class="card-body">
-                <h4 class="card-title" style="color: #c08269">Mission</h4>
+                <h4 class="card-title text-brown">Mission</h4>
                 <p class="card-text text-dark">
                   We listen to the needs of local women and their families. We work with them to bring solutions that they can identify
                   with. We trigger a health-seeking behaviour and economic empowerment in rural communities that will allow for sustainable
@@ -384,10 +425,10 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 pb-5">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 pb-5">
             <div class="card mb-5 border-0 shadow-lg bg-transparent card-vision" style="height: 100%">
               <div class="card-body">
-                <h4 class="card-title" style="color: #c08269">Vision</h4>
+                <h4 class="card-title text-brown">Vision</h4>
                 <p class="card-text text-dark">
                   We envisage a world with equal access to quality health education and to affordable and sustainable healthcare. This will
                   eradicate curable and manageable diseases and create a positive impact on the lives of many families in the rural
@@ -400,27 +441,30 @@
       </div>
     </section>
     <section id="impact">
-      <div class="row m-0 title-section-our-impact">
+      <div class="row m-0 title-section-our-impact lazy">
         <div class="col-12 col-lg-6 offset-lg-6 d-flex d-lg-flex justify-content-center align-items-center">
-          <h2 class="display-4 text-center text-light d-flex justify-content-center align-items-center">Our Impact</h2>
+          <h2 class="display-4 text-center text-light d-flex justify-content-center align-items-center heading-title-section">
+            Our Impact
+          </h2>
         </div>
       </div>
       <div class="container pt-5">
         <div class="row">
-          <div class="col-lg-6 col-xl-6 mb-5">
-            <div class="card shadow-lg card-solution">
-              <div class="card-body d-xl-flex justify-content-xl-center align-items-xl-center border-0">
+          <div class="col-lg-6 col-xl-6 pb-5">
+            <div class="card shadow-lg card-solution border-0">
+              <div class="card-body d-flex justify-content-center align-items-center">
                 <img
-                  class="img-fluid d-xl-flex justify-content-xl-center align-items-xl-center"
+                  class="img-fluid d-flex justify-content-center align-items-center"
                   src="assets/img/our.impact.grap.1.png?h=555de714c1cfda57db3ae6dc81e060f9"
+                  loading="lazy"
                 />
               </div>
             </div>
           </div>
-          <div class="col-lg-6 col-xl-6 offset-0 d-flex justify-content-center align-items-center mb-5">
+          <div class="col-lg-6 col-xl-6 offset-0 d-flex justify-content-center align-items-center pb-5">
             <div class="card text-center d-flex justify-content-center align-items-center border-0 bg-transparent">
               <div class="card-body d-flex justify-content-center align-items-center">
-                <p class="d-flex justify-content-center align-items-center text-dark">
+                <p class="d-flex justify-content-center align-items-center text-dark paragraph-full-dark">
                   Our work supports Sustainable Development Goals (SDGs) 3, 4, 5 and 17. With our holistic approach we build an ecosystem of
                   change by working closely with our partners and improving women's health. In turn this creates a positive impact on the
                   social and economic status of women in the Bungoma county in Kenya.<br />
@@ -430,10 +474,10 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-lg-6 col-xl-6 mb-5">
-            <div class="card shadow-lg card-solution">
-              <div class="card-body border-0">
-                <img class="img-fluid" src="assets/img/our.impact.graph.2.png?h=056cd979999077441417b3a8ab885e94" /><a
+          <div class="col-lg-6 col-xl-6 pb-5">
+            <div class="card shadow-lg card-solution border-0">
+              <div class="card-body">
+                <img class="img-fluid" src="assets/img/our.impact.graph.2.png?h=056cd979999077441417b3a8ab885e94" loading="lazy" /><a
                   class="card-link text-center d-block"
                   href="https://www.who.int/health-topics/cervical-cancer#tab=tab_2"
                   target="_blank"
@@ -442,10 +486,10 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-6 col-xl-6 offset-0 d-flex justify-content-center align-items-center mb-5">
+          <div class="col-lg-6 col-xl-6 offset-0 d-flex justify-content-center align-items-center pb-5">
             <div class="card text-center d-flex justify-content-center align-items-center border-0 bg-transparent">
-              <div class="card-body">
-                <p class="d-xl-flex justify-content-xl-center align-items-xl-center text-dark">
+              <div class="card-body d-lg-flex justify-content-lg-center align-items-lg-center">
+                <p class="d-flex justify-content-center align-items-center text-dark paragraph-full-dark">
                   We are proud of supporting and contributing to the global call for action by WHO to meet the proposed cervical cancer
                   prevention goals by 2030. <br />Now is the time to act&nbsp;in unison around the world!<br />
                 </p>
@@ -455,28 +499,24 @@
         </div>
       </div>
     </section>
-    <section id="partners">
-      <div class="row m-0 title-section-partners">
+    <section id="partners" class="m-0">
+      <div class="row m-0 title-section-partners lazy">
         <div class="col-12 col-lg-6 offset-lg-6 d-flex d-lg-flex justify-content-center align-items-center">
-          <h2 class="display-4 text-center text-light d-flex justify-content-center align-items-center">Our Partners</h2>
+          <h2 class="display-4 text-center text-light d-flex justify-content-center align-items-center heading-title-section">
+            Our Partners
+          </h2>
         </div>
       </div>
       <div class="container pt-3">
         <div class="row">
           <div class="col-12 offset-0">
-            <div class="card text-center border-0 bg-light">
+            <div class="card text-center border-0 bg-transparent">
               <div class="card-body">
-                <h5
-                  class="d-flex justify-content-center align-items-center"
-                  style="font-weight: 600; color: #c08269; line-height: 34px; font-size: 24px"
-                >
+                <h5 class="d-flex justify-content-center align-items-center description-full-brown">
                   <strong>Our strength lies in the strong partnerships which we have already created and which we will create.</strong
                   ><br />
                 </h5>
-                <h5
-                  class="d-flex justify-content-center align-items-center"
-                  style="font-weight: 500; color: #212529; line-height: 24px; font-size: 16px"
-                >
+                <h5 class="d-flex justify-content-center align-items-center description-full-black">
                   <strong
                     >We bridge the gap between business and social sector by engaging with NGOs, social entrepreneurs, pharmaceutical
                     industries, universities, health organizations and governments.&nbsp;We bridge the gap between business and social
@@ -488,15 +528,13 @@
             </div>
           </div>
         </div>
-        <div class="row mt-5">
-          <div class="col-lg-3 col-xl-3 mb-3">
-            <div class="card d-flex justify-content-center align-items-center mb-3 border-0 bg-transparent" style="height: 150px">
-              <div
-                class="card-body d-flex d-xl-flex justify-content-center align-items-center justify-content-xl-center align-items-xl-center"
-              >
+        <div class="row">
+          <div class="col-12 col-sm-6 col-md-6 col-lg-3 pb-5">
+            <div class="card d-lg-flex justify-content-lg-center align-items-lg-center mb-3 border-0 bg-transparent">
+              <div class="card-body d-flex justify-content-center align-items-center">
                 <a class="card-link" href="https://www.ampathkenya.org/" target="_blank"
                   ><img
-                    class="float-right"
+                    class="img-fluid float-right"
                     src="assets/img/logo.ampath.1.jpeg?h=7ec6ae1bad7439f0cdc7792cffb5df9b"
                     width="150px"
                     loading="lazy"
@@ -504,14 +542,12 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 mb-3">
-            <div class="card d-flex justify-content-center align-items-center mb-3 border-0 bg-transparent" style="height: 150px">
-              <div
-                class="card-body d-flex d-xl-flex justify-content-center align-items-center justify-content-xl-center align-items-xl-center"
-              >
+          <div class="col-12 col-sm-6 col-md-6 col-lg-3 pb-5">
+            <div class="card d-flex justify-content-center align-items-center mb-3 border-0 bg-transparent">
+              <div class="card-body d-flex justify-content-center align-items-center justify-content-xl-center">
                 <a class="card-link" href="https://www.boehringer-ingelheim.at/de" target="_blank"
                   ><img
-                    class="float-right"
+                    class="img-fluid float-right"
                     src="assets/img/logo.boehringer.png?h=4253fc06d956c0e52710563d9499f653"
                     width="150px"
                     loading="lazy"
@@ -519,24 +555,24 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-lg-3 mb-3">
-            <div class="card d-flex justify-content-center align-items-center mb-3 border-0 bg-transparent" style="height: 150px">
-              <div
-                class="card-body d-flex d-xl-flex justify-content-center align-items-center justify-content-xl-center align-items-xl-center"
-              >
+          <div class="col-12 col-sm-6 col-md-6 col-lg-3 pb-5">
+            <div class="card d-flex justify-content-center align-items-center mb-3 border-0 bg-transparent">
+              <div class="card-body d-flex justify-content-center align-items-center">
                 <a class="card-link" href="https://www.makingmorehealth.org/" target="_blank"
-                  ><img class="float-right" src="assets/img/logo.mmh.png?h=15d9d732b944907270cfa4d1448c1ffe" width="150px" loading="lazy"
+                  ><img
+                    class="img-fluid float-right"
+                    src="assets/img/logo.mmh.png?h=15d9d732b944907270cfa4d1448c1ffe"
+                    width="150px"
+                    loading="lazy"
                 /></a>
               </div>
             </div>
           </div>
-          <div class="col-12 col-lg-3 mb-3">
-            <div class="card d-flex justify-content-center align-items-center mb-3 border-0 bg-transparent" style="height: 150px">
-              <div
-                class="card-body d-flex d-xl-flex justify-content-center align-items-center justify-content-xl-center align-items-xl-center"
-              >
+          <div class="col-12 col-sm-6 col-md-6 col-lg-3 pb-5">
+            <div class="card d-flex justify-content-center align-items-center mb-3 border-0 bg-transparent">
+              <div class="card-body d-flex justify-content-center align-items-center">
                 <img
-                  class="float-right"
+                  class="img-fluid float-right"
                   src="assets/img/logo.core.health.wealth.int.jpg?h=737e8dba0a4e175c017f8506de4cc751"
                   width="150px"
                   loading="lazy"
@@ -548,20 +584,17 @@
       </div>
     </section>
     <section id="about-us">
-      <div class="row m-0 title-section-about-us">
+      <div class="row m-0 title-section-about-us lazy">
         <div class="col-12 col-lg-6 offset-lg-6 d-flex d-lg-flex justify-content-center align-items-center">
-          <h2 class="display-4 text-center text-light d-flex justify-content-center align-items-center">About Us</h2>
+          <h2 class="display-4 text-center text-light d-flex justify-content-center align-items-center heading-title-section">About Us</h2>
         </div>
       </div>
       <div class="container pt-3">
         <div class="row header-row">
           <div class="col-12 offset-0">
-            <div class="card text-center border-0 bg-light">
+            <div class="card text-center border-0 bg-transparent">
               <div class="card-body">
-                <h5
-                  class="d-flex justify-content-center align-items-center"
-                  style="font-weight: 600; color: #c08269; line-height: 34px; font-size: 24px"
-                >
+                <h5 class="d-flex justify-content-center align-items-center description-full-brown">
                   <strong
                     >We are an energetic team with different professional backgrounds but united by passion and determination to make
                     healthcare accessible to the most vulnerable communities.</strong
@@ -573,7 +606,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-3 offset-0 mb-3">
+          <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 offset-0 mb-3">
             <div class="card border-0 card-about-us bg-transparent">
               <div class="card-body text-center">
                 <img
@@ -589,7 +622,7 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-3 offset-0 mb-3">
+          <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 offset-0 mb-3">
             <div class="card border-0 card-about-us bg-transparent">
               <div class="card-body text-center">
                 <img
@@ -605,7 +638,7 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-3 offset-0 mb-3">
+          <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 offset-0 mb-3">
             <div class="card border-0 card-about-us bg-transparent">
               <div class="card-body text-center">
                 <img
@@ -621,7 +654,7 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-3 offset-0 mb-3">
+          <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 offset-0 mb-3">
             <div class="card border-0 card-about-us bg-transparent">
               <div class="card-body text-center">
                 <img
@@ -637,7 +670,7 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-3 offset-0 mb-3">
+          <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 offset-0 mb-3">
             <div class="card border-0 card-about-us bg-transparent">
               <div class="card-body text-center">
                 <img
@@ -653,7 +686,7 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-3 offset-0 mb-3">
+          <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 offset-0 mb-3">
             <div class="card border-0 card-about-us bg-transparent">
               <div class="card-body text-center">
                 <img
@@ -669,7 +702,7 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-3 offset-0 mb-3">
+          <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 offset-0 mb-3">
             <div class="card border-0 card-about-us bg-transparent">
               <div class="card-body text-center">
                 <img
@@ -683,7 +716,7 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-3 offset-0 mb-3">
+          <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 offset-0 mb-3">
             <div class="card border-0 card-about-us bg-transparent">
               <div class="card-body text-center">
                 <img
@@ -697,7 +730,7 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-3 offset-0 mb-3">
+          <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 offset-0 mb-3">
             <div class="card border-0 card-about-us bg-transparent">
               <div class="card-body text-center">
                 <img
@@ -711,7 +744,7 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-3 offset-0 mb-3">
+          <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 offset-0 mb-3">
             <div class="card border-0 card-about-us bg-transparent">
               <div class="card-body text-center">
                 <img
@@ -725,7 +758,7 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-3 offset-0 mb-3">
+          <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 offset-0 mb-3">
             <div class="card border-0 card-about-us bg-transparent">
               <div class="card-body text-center">
                 <img
@@ -739,7 +772,7 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-3 offset-0 mb-3">
+          <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 offset-0 mb-3">
             <div class="card border-0 card-about-us bg-transparent">
               <div class="card-body text-center">
                 <img
@@ -757,23 +790,75 @@
       </div>
     </section>
     <section id="donate">
-      <div class="row m-0">
-        <div class="col-12 d-flex d-lg-flex justify-content-center align-items-center title-section-donate">
-          <h2 class="display-4 text-center text-light d-flex justify-content-center align-items-center">Donate</h2>
+      <div class="row m-0 title-section-donate lazy">
+        <div class="col-12 col-lg-6 offset-lg-6 d-flex d-lg-flex justify-content-center align-items-center">
+          <h2 class="display-4 text-center text-light d-flex justify-content-center align-items-center heading-title-section">Donate</h2>
         </div>
       </div>
-      <div class="container">
-        <div class="row mt-5">
-          <div class="col">
-            <div class="card text-center mb-5 shadow-lg card-donate">
+      <div class="container py-3">
+        <div class="row">
+          <div class="col-12 offset-0">
+            <div class="card text-center border-0 bg-transparent">
               <div class="card-body">
-                <h4 class="card-title">Donate</h4>
-                <h6 class="text-muted card-subtitle mb-2">Subtitle</h6>
-                <p class="card-text">
-                  Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec
-                  id elit non mi porta gravida at eget metus.
-                </p>
-                <a class="card-link" href="#">Link</a><a class="card-link" href="#">Link</a>
+                <h4 class="card-title">THANK YOU FOR YOUR CONTRIBUTION!</h4>
+                <h5 class="d-flex justify-content-center align-items-center description-full-black">
+                  <strong
+                    >Together Women Can is a non-profit organisation registered in Vienna, Austria (...number). Every contribution has a
+                    real impact on the lives of women and families in the Bungoma county in Kenya. With your help, you actively contribute
+                    to cervical cancer eradication by enabling sexual health education, cervical cancer prevention, screening and
+                    treatment.&nbsp;</strong
+                  ><br /><br />
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-4 pb-5">
+            <div class="card text-center border-0">
+              <div class="card-body d-flex justify-content-center align-items-center">
+                <img class="img-fluid" src="assets/img/euro.10.png?h=66178a4dea576243171abbc1d1ff2c51" width="250px" loading="lazy" />
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 pb-5">
+            <div class="card text-center shadow-lg card-donate" style="border: 2px solid #c08269">
+              <div class="card-body d-flex justify-content-center align-items-center">
+                <img class="img-fluid" width="250px" src="assets/img/euro.30.png?h=277b1d95d90cb3d125abb3b05d9753cc" loading="lazy" />
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 pb-5">
+            <div class="card text-center border-0">
+              <div class="card-body d-flex justify-content-center align-items-center">
+                <img class="img-fluid" src="assets/img/euro.60.png?h=06a5cfceb40409e89e1e9a7e75f7f1e7" width="250px" loading="lazy" />
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 offset-lg-2 pb-5">
+            <div class="card text-center d-flex border-0">
+              <div class="card-body d-flex justify-content-center align-items-center">
+                <img class="img-fluid" src="assets/img/euro.100.png?h=1cdaa95b8ff6060ab1a847c51ae3a029" width="250px" loading="lazy" />
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 pb-5">
+            <div class="card text-center border-0">
+              <div class="card-body d-flex justify-content-center align-items-center">
+                <img class="img-fluid" src="assets/img/euro.500.png?h=821349fd79919c70794a80bc58c6102e" width="250px" loading="lazy" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 offset-0">
+            <div class="card bg-transparent border-0">
+              <div class="card-body">
+                <h4 class="card-title">Please send your donation to:</h4>
+                <h4 class="card-title" style="color: #c08269">Together Women Can<br /></h4>
+                <h6 class="text-muted card-subtitle mb-2">IBAN: …..<br /></h6>
+                <h6 class="text-muted card-subtitle mb-2">BIC:......<br /></h6>
+                <h6 class="text-muted card-subtitle mb-2">PayPal:......</h6>
               </div>
             </div>
           </div>
@@ -781,32 +866,56 @@
       </div>
     </section>
     <!-- Start: Footer Basic -->
-    <div class="footer-basic">
+    <div class="footer-basic bg-light shadow-lg">
       <footer>
-        <!-- Start: Social Icons -->
-        <div class="social">
-          <a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a
-          ><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a>
-        </div>
-        <!-- End: Social Icons -->
-        <!-- Start: Links -->
-        <ul class="list-inline">
-          <li class="list-inline-item"><a href="#home">Home</a></li>
-          <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
-        </ul>
-        <!-- End: Links -->
-        <div class="text-center mt-3">
-          <img class="d-inline" src="assets/img/logo_twc_no%20background.png?h=69c341939250a794a7e0452c18f46fe6" width="60px" />
-          <!-- Start: Copyright -->
-          <p class="d-inline copyright">Together Women Can © 2020</p>
-          <!-- End: Copyright -->
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="card bg-transparent border-0">
+                <div class="card-body social">
+                  <h4 class="card-title mb-5">Contact us!</h4>
+                  <a class="card-link" href="#"><i class="icon ion-android-mail"></i></a
+                  ><a class="card-link" href="#"><i class="icon ion-social-twitter"></i></a
+                  ><a class="card-link" href="#"><i class="icon ion-social-facebook"></i></a
+                  ><a class="card-link" href="#"><i class="icon ion-link"></i></a
+                  ><!-- Start: Social Icons -->
+                  <div class="social pl-0 m-0"></div>
+                  <!-- End: Social Icons -->
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card bg-transparent border-0">
+                <div class="card-body">
+                  <!-- Start: Links -->
+                  <ul class="list-inline text-left">
+                    <li class="list-inline-item"><a href="#home">Home</a></li>
+                    <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+                  </ul>
+                  <!-- End: Links -->
+                  <div class="mt-3">
+                    <img
+                      class="img-fluid d-inline"
+                      src="assets/img/logo_twc_no%20background.png?h=69c341939250a794a7e0452c18f46fe6"
+                      width="60px"
+                      loading="lazy"
+                    /><!-- Start: Copyright -->
+                    <p class="d-inline copyright">Together Women Can © 2020</p>
+                    <!-- End: Copyright -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </footer>
     </div>
     <!-- End: Footer Basic -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/script.js.js?h=6968fdb6a6bbe729a65eba7b26421545"></script>
-    <script src="assets/js/scroll-smooth.js?h=d54f0907fd5fd2af81e1e45206a8cc40"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/Off-Canvas-Sidebar-Drawer-Navbar.js?h=d4aa497367d5fdca7d982a4dbe63055b"></script>
+    <script src="assets/js/Off-Canvas-Sidebar-Drawer-Navbar-1.js?h=dc340fa50e3ca35c4936cb144ef3d790"></script>
+    <script src="assets/js/script.js.js?h=7ce24ca2f99486fc80c3e5d6b7de62fe"></script>
+    <script src="assets/js/scroll-smooth.js?h=7a5a019cb3a961b37fd80f2140cd9133"></script>
   </body>
 </html>
