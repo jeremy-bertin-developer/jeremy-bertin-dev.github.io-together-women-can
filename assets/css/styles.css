@@ -43,6 +43,10 @@ header {
   margin-top: 50px;
 }
 
+.card-title-twc {
+  color: #c08269;
+}
+
 #problem {
   height: 400px;
   background: #f9f9f9;
@@ -163,6 +167,10 @@ header {
   height: 100%;
 }
 
+.card-donate {
+  border: 2px solid #c08269;
+}
+
 body {
   width: 100%;
   font-family: Montserrat, sans-serif;
@@ -240,4 +248,28 @@ body {
 
 .lazy {
   background-image: none;
+}
+
+.font-weight-300 {
+  font-weight: 300;
+}
+
+.width-30 {
+  width: 30px;
+}
+
+.width-60 {
+  width: 60px;
+}
+
+.width-150 {
+  width: 150px;
+}
+
+.width-250 {
+  width: 250px;
+}
+
+.width-300 {
+  width: 300px;
 }
