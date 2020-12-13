@@ -26,13 +26,12 @@
       <div class="container-fluid">
         <a class="navbar-brand"
           ><img
-            class="img-fluid d-block d-sm-block d-md-block d-lg-block d-xl-none navbar-brand-small"
-            src="assets/img/logo_twc_no%20background.png?h=69c341939250a794a7e0452c18f46fe6"
+            class="img-fluid d-block d-sm-block d-md-block d-lg-block d-xl-none navbar-brand-small lazy"
+            data-src="assets/img/logo_twc_no%20background.png?h=69c341939250a794a7e0452c18f46fe6"
             width="" /><img
-            class="img-fluid d-none d-sm-none d-md-none d-lg-none d-xl-block navbar-brand-big"
-            src="assets/img/logo_twc_no%20background.png?h=69c341939250a794a7e0452c18f46fe6"
-            width=""
-            loading="lazy" /></a
+            class="img-fluid d-none d-sm-none d-md-none d-lg-none d-xl-block navbar-brand-big lazy"
+            data-src="assets/img/logo_twc_no%20background.png?h=69c341939250a794a7e0452c18f46fe6"
+            width="" /></a
         ><button data-toggle="collapse" class="navbar-toggler hamburger hamburger--arrowturn" data-target="#navcol-1">
           <span class="hamburger-box"><span class="hamburger-inner"></span></span>
         </button>
@@ -68,17 +67,16 @@
       </div>
     </nav>
     <!-- Start: Off-Canvas Sidebar-Drawer Navbar -->
-    <nav class="navbar navbar-light fixed-top bg-light d-lg-none d-xl-none off-canvas" data-right-drawer="0" data-open-drawer="1">
+    <nav class="navbar navbar-light fixed-top bg-light d-lg-none d-xl-none off-canvas" data-right-drawer="0" data-open-drawer="0">
       <div class="container-fluid flex-column">
         <button class="btn btn-dark drawer-knob" type="button" data-open="drawer"><i class="fas fa-bars"></i></button>
         <div class="d-flex justify-content-between brand-line">
           <a class="navbar-brand"
             ><img
-              class="img-fluid"
-              src="assets/img/logo_twc_no%20background.png?h=69c341939250a794a7e0452c18f46fe6"
-              width="30px"
-              loading="lazy" /></a
-          ><button class="btn btn-dark" type="button" data-dismiss="drawer">
+              class="img-fluid lazy"
+              data-src="assets/img/logo_twc_no%20background.png?h=69c341939250a794a7e0452c18f46fe6"
+              width="30px" /></a
+          ><button class="btn btn-light" type="button" data-dismiss="drawer">
             <span class="sr-only">Toggle Navigation&nbsp;</span><i class="fas fa-times"></i>
           </button>
         </div>
@@ -110,7 +108,7 @@
     <!-- End: Off-Canvas Sidebar-Drawer Navbar -->
     <section id="home">
       <div class="text-center d-none d-sm-none d-md-none d-lg-block" id="header-desktop">
-        <header class="lazy">
+        <header class="lazzy">
           <div class="container-fluid header-container">
             <div class="row header-row">
               <div class="col d-lg-flex justify-content-lg-center align-items-lg-center mt-5">
@@ -142,7 +140,7 @@
         </div>
       </div>
       <div class="d-block d-sm-block d-md-block d-lg-none d-xl-none" id="header-small-devices">
-        <header class="lazy">
+        <header class="lazzy">
           <div class="container-fluid header-container">
             <div class="row header-row">
               <div class="col text-center">
@@ -172,7 +170,7 @@
       </div>
     </section>
     <section id="our-focus">
-      <div class="row m-0 title-section-our-focus lazy">
+      <div class="row m-0 title-section-our-focus lazzy">
         <div class="col-12 col-lg-6 offset-lg-6 d-flex d-lg-flex justify-content-center align-items-center">
           <h2
             class="display-4 text-center text-light d-flex d-lg-flex justify-content-center align-items-center justify-content-lg-center align-items-lg-center heading-title-section"
@@ -201,10 +199,9 @@
             <div class="card text-center border-0 shadow-lg">
               <div class="card-body">
                 <img
-                  class="img-fluid mb-3"
+                  class="img-fluid mb-3 lazy"
                   width="150px"
-                  src="assets/img/logo.our.focus.education.png?h=6ddfd34ee7035c905a0d42ae672aec4d"
-                  loading="lazy"
+                  data-src="assets/img/logo.our.focus.education.png?h=6ddfd34ee7035c905a0d42ae672aec4d"
                 />
                 <h4 class="card-title">Education</h4>
                 <p class="card-text text-dark">Providing sexual health and cervical cancer education and awareness</p>
@@ -215,10 +212,9 @@
             <div class="card text-center border-0 shadow-lg card-focus card-focus">
               <div class="card-body">
                 <img
-                  class="img-fluid mb-3"
+                  class="img-fluid mb-3 lazy"
                   width="150px"
-                  src="assets/img/logo.our.focus.prevention.png?h=5a93f89808fe2ac0541b8661cc9ef7d7"
-                  loading="lazy"
+                  data-src="assets/img/logo.our.focus.prevention.png?h=5a93f89808fe2ac0541b8661cc9ef7d7"
                 />
                 <h4 class="card-title">Prevention</h4>
                 <p class="card-text text-dark">Raising awareness on HPV vaccination in young girls and boys is crucial</p>
@@ -229,10 +225,9 @@
             <div class="card text-center border-0 shadow-lg card-focus">
               <div class="card-body">
                 <img
-                  class="img-fluid mb-3"
+                  class="img-fluid mb-3 lazy"
                   width="150px"
-                  src="assets/img/logo.our.focus.diagnosis..png?h=4c7bd42e4b85213949532fea76b7f6e3"
-                  loading="lazy"
+                  data-src="assets/img/logo.our.focus.diagnosis..png?h=4c7bd42e4b85213949532fea76b7f6e3"
                 />
                 <h4 class="card-title">Diagnosis</h4>
                 <p class="card-text text-dark">Screening is able to detect early lesions that are easily treatable</p>
@@ -243,10 +238,9 @@
             <div class="card text-center border-0 shadow-lg card-focus">
               <div class="card-body">
                 <img
-                  class="img-fluid mb-3"
+                  class="img-fluid mb-3 lazy"
                   width="150px"
-                  src="assets/img/logo.our.focus.treatment.png?h=6d52efedd7d623594b3e6ebebb66cdf3"
-                  loading="lazy"
+                  data-src="assets/img/logo.our.focus.treatment.png?h=6d52efedd7d623594b3e6ebebb66cdf3"
                 />
                 <h4 class="card-title">Treatment</h4>
                 <p class="card-text text-dark">Late stage cancer requires treatment, palliative care and mental support</p>
@@ -257,7 +251,7 @@
       </div>
     </section>
     <section id="challenge">
-      <div class="row m-0 title-selection-challenge lazy">
+      <div class="row m-0 title-selection-challenge lazzy">
         <div class="col-12 col-lg-6 offset-lg-6 d-flex d-lg-flex justify-content-center align-items-center">
           <h2
             class="display-4 text-center text-light d-flex d-lg-flex justify-content-center align-items-center justify-content-lg-center align-items-lg-center heading-title-section"
@@ -292,10 +286,9 @@
             <div class="card text-center border-0 shadow-lg">
               <div class="card-body d-flex justify-content-center align-items-center">
                 <img
-                  class="img-fluid d-flex justify-content-center align-items-center"
+                  class="img-fluid d-flex justify-content-center align-items-center lazy"
                   width="300px"
-                  src="assets/img/3000.png?h=4ddc7cf104dd3e490a79648449b1d3a3"
-                  loading="lazy"
+                  data-src="assets/img/3000.png?h=4ddc7cf104dd3e490a79648449b1d3a3"
                 />
               </div>
             </div>
@@ -304,10 +297,9 @@
             <div class="card text-center border-0 shadow-lg">
               <div class="card-body d-flex justify-content-center align-items-center">
                 <img
-                  class="img-fluid d-flex justify-content-center align-items-center"
+                  class="img-fluid d-flex justify-content-center align-items-center lazy"
                   width="300px"
-                  src="assets/img/3.percent.png?h=4ed1367c7684c603a26eae04ba44bf44"
-                  loading="lazy"
+                  data-src="assets/img/3.percent.png?h=4ed1367c7684c603a26eae04ba44bf44"
                 />
               </div>
             </div>
@@ -328,7 +320,7 @@
       </div>
     </section>
     <section id="solution">
-      <div class="row m-0 title-section-solution lazy">
+      <div class="row m-0 title-section-solution lazzy">
         <div class="col-12 col-lg-6 offset-lg-6 d-flex d-lg-flex justify-content-center align-items-center">
           <h2
             class="display-4 text-center text-light d-flex d-lg-flex justify-content-center align-items-center justify-content-lg-center align-items-lg-center heading-title-section"
@@ -359,9 +351,8 @@
                 class="card-body d-lg-flex d-xl-flex justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center"
               >
                 <img
-                  class="img-fluid d-flex justify-content-center align-items-center"
-                  src="assets/img/logo.solution.3.png?h=2b848ade44c0ef7c42e0e695167f14d2"
-                  loading="lazy"
+                  class="img-fluid d-flex justify-content-center align-items-center lazy"
+                  data-src="assets/img/logo.solution.3.png?h=2b848ade44c0ef7c42e0e695167f14d2"
                 />
               </div>
             </div>
@@ -404,7 +395,7 @@
       </div>
     </section>
     <section id="our-mission">
-      <div class="row m-0 title-section-our-mission lazy">
+      <div class="row m-0 title-section-our-mission lazzy">
         <div class="col-12 col-lg-6 offset-lg-6 d-flex d-lg-flex justify-content-center align-items-center">
           <h2 class="display-4 text-center text-light d-flex justify-content-center align-items-center heading-title-section">
             Our Mission
@@ -441,7 +432,7 @@
       </div>
     </section>
     <section id="impact">
-      <div class="row m-0 title-section-our-impact lazy">
+      <div class="row m-0 title-section-our-impact lazzy">
         <div class="col-12 col-lg-6 offset-lg-6 d-flex d-lg-flex justify-content-center align-items-center">
           <h2 class="display-4 text-center text-light d-flex justify-content-center align-items-center heading-title-section">
             Our Impact
@@ -454,9 +445,8 @@
             <div class="card shadow-lg card-solution border-0">
               <div class="card-body d-flex justify-content-center align-items-center">
                 <img
-                  class="img-fluid d-flex justify-content-center align-items-center"
-                  src="assets/img/our.impact.grap.1.png?h=555de714c1cfda57db3ae6dc81e060f9"
-                  loading="lazy"
+                  class="img-fluid d-flex justify-content-center align-items-center lazy"
+                  data-src="assets/img/our.impact.grap.1.png?h=555de714c1cfda57db3ae6dc81e060f9"
                 />
               </div>
             </div>
@@ -477,7 +467,7 @@
           <div class="col-lg-6 col-xl-6 pb-5">
             <div class="card shadow-lg card-solution border-0">
               <div class="card-body">
-                <img class="img-fluid" src="assets/img/our.impact.graph.2.png?h=056cd979999077441417b3a8ab885e94" loading="lazy" /><a
+                <img class="img-fluid lazy" data-src="assets/img/our.impact.graph.2.png?h=056cd979999077441417b3a8ab885e94" /><a
                   class="card-link text-center d-block"
                   href="https://www.who.int/health-topics/cervical-cancer#tab=tab_2"
                   target="_blank"
@@ -500,7 +490,7 @@
       </div>
     </section>
     <section id="partners" class="m-0">
-      <div class="row m-0 title-section-partners lazy">
+      <div class="row m-0 title-section-partners lazzy">
         <div class="col-12 col-lg-6 offset-lg-6 d-flex d-lg-flex justify-content-center align-items-center">
           <h2 class="display-4 text-center text-light d-flex justify-content-center align-items-center heading-title-section">
             Our Partners
@@ -533,11 +523,7 @@
             <div class="card d-lg-flex justify-content-lg-center align-items-lg-center mb-3 border-0 bg-transparent">
               <div class="card-body d-flex justify-content-center align-items-center">
                 <a class="card-link" href="https://www.ampathkenya.org/" target="_blank"
-                  ><img
-                    class="img-fluid float-right"
-                    src="assets/img/logo.ampath.1.jpeg?h=7ec6ae1bad7439f0cdc7792cffb5df9b"
-                    width="150px"
-                    loading="lazy"
+                  ><img class="img-fluid lazy" data-src="assets/img/logo.ampath.1.jpeg?h=7ec6ae1bad7439f0cdc7792cffb5df9b" width="150px"
                 /></a>
               </div>
             </div>
@@ -546,11 +532,7 @@
             <div class="card d-flex justify-content-center align-items-center mb-3 border-0 bg-transparent">
               <div class="card-body d-flex justify-content-center align-items-center justify-content-xl-center">
                 <a class="card-link" href="https://www.boehringer-ingelheim.at/de" target="_blank"
-                  ><img
-                    class="img-fluid float-right"
-                    src="assets/img/logo.boehringer.png?h=4253fc06d956c0e52710563d9499f653"
-                    width="150px"
-                    loading="lazy"
+                  ><img class="img-fluid lazy" data-src="assets/img/logo.boehringer.png?h=4253fc06d956c0e52710563d9499f653" width="150px"
                 /></a>
               </div>
             </div>
@@ -559,11 +541,7 @@
             <div class="card d-flex justify-content-center align-items-center mb-3 border-0 bg-transparent">
               <div class="card-body d-flex justify-content-center align-items-center">
                 <a class="card-link" href="https://www.makingmorehealth.org/" target="_blank"
-                  ><img
-                    class="img-fluid float-right"
-                    src="assets/img/logo.mmh.png?h=15d9d732b944907270cfa4d1448c1ffe"
-                    width="150px"
-                    loading="lazy"
+                  ><img class="img-fluid lazy" data-src="assets/img/logo.mmh.png?h=15d9d732b944907270cfa4d1448c1ffe" width="150px"
                 /></a>
               </div>
             </div>
@@ -572,10 +550,9 @@
             <div class="card d-flex justify-content-center align-items-center mb-3 border-0 bg-transparent">
               <div class="card-body d-flex justify-content-center align-items-center">
                 <img
-                  class="img-fluid float-right"
-                  src="assets/img/logo.core.health.wealth.int.jpg?h=737e8dba0a4e175c017f8506de4cc751"
+                  class="img-fluid lazy"
+                  data-src="assets/img/logo.core.health.wealth.int.jpg?h=737e8dba0a4e175c017f8506de4cc751"
                   width="150px"
-                  loading="lazy"
                 />
               </div>
             </div>
@@ -584,7 +561,7 @@
       </div>
     </section>
     <section id="about-us">
-      <div class="row m-0 title-section-about-us lazy">
+      <div class="row m-0 title-section-about-us lazzy">
         <div class="col-12 col-lg-6 offset-lg-6 d-flex d-lg-flex justify-content-center align-items-center">
           <h2 class="display-4 text-center text-light d-flex justify-content-center align-items-center heading-title-section">About Us</h2>
         </div>
@@ -610,10 +587,9 @@
             <div class="card border-0 card-about-us bg-transparent">
               <div class="card-body text-center">
                 <img
-                  class="rounded-circle img-fluid shadow my-3"
+                  class="rounded-circle img-fluid shadow my-3 lazy"
                   width="150px"
-                  loading="lazy"
-                  src="assets/img/valeria.santoro.png?h=69b095266af9f071cec30d796d752c6f"
+                  data-src="assets/img/valeria.santoro.png?h=69b095266af9f071cec30d796d752c6f"
                 />
                 <h4 class="card-title">Valeria Santoro,&nbsp;PhD</h4>
                 <p class="card-text text-muted" style="font-weight: 300">
@@ -626,10 +602,9 @@
             <div class="card border-0 card-about-us bg-transparent">
               <div class="card-body text-center">
                 <img
-                  class="rounded-circle img-fluid shadow my-3"
+                  class="rounded-circle img-fluid shadow my-3 lazy"
                   width="150px"
-                  loading="lazy"
-                  src="assets/img/hrvoje.cvija.png?h=0fbdbf5caf8305189850e19391b1a846"
+                  data-src="assets/img/hrvoje.cvija.png?h=0fbdbf5caf8305189850e19391b1a846"
                 />
                 <h4 class="card-title">Hrvoje Cvija,&nbsp;PhD</h4>
                 <p class="card-text text-muted" style="font-weight: 300">
@@ -642,10 +617,9 @@
             <div class="card border-0 card-about-us bg-transparent">
               <div class="card-body text-center">
                 <img
-                  class="rounded-circle img-fluid shadow my-3"
+                  class="rounded-circle img-fluid shadow my-3 lazy"
                   width="150px"
-                  loading="lazy"
-                  src="assets/img/cleophas.pp.png?h=13d26c428b881bb417c141e12af523bb"
+                  data-src="assets/img/cleophas.pp.png?h=13d26c428b881bb417c141e12af523bb"
                 />
                 <h4 class="card-title">Cleophas Wanyonyi Chesoli</h4>
                 <p class="card-text text-muted" style="font-weight: 300">
@@ -658,10 +632,9 @@
             <div class="card border-0 card-about-us bg-transparent">
               <div class="card-body text-center">
                 <img
-                  class="rounded-circle img-fluid shadow my-3"
+                  class="rounded-circle img-fluid shadow my-3 lazy"
                   width="150px"
-                  loading="lazy"
-                  src="assets/img/lydia.mwanzia.png?h=e0927a7408e7f18b9b8f80caf41e5398"
+                  data-src="assets/img/lydia.mwanzia.png?h=e0927a7408e7f18b9b8f80caf41e5398"
                 />
                 <h4 class="card-title">Lydia Mwanzia, PhD</h4>
                 <p class="card-text text-muted" style="font-weight: 300">
@@ -674,10 +647,9 @@
             <div class="card border-0 card-about-us bg-transparent">
               <div class="card-body text-center">
                 <img
-                  class="rounded-circle img-fluid shadow my-3"
+                  class="rounded-circle img-fluid shadow my-3 lazy"
                   width="150px"
-                  loading="lazy"
-                  src="assets/img/dr.omenge.png?h=a2a8ce1b97181ec58208eac3de5832f7"
+                  data-src="assets/img/dr.omenge.png?h=a2a8ce1b97181ec58208eac3de5832f7"
                 />
                 <h4 class="card-title">Dr. Orang’o Elkanah Omenge</h4>
                 <p class="card-text text-muted" style="font-weight: 300">
@@ -690,10 +662,9 @@
             <div class="card border-0 card-about-us bg-transparent">
               <div class="card-body text-center">
                 <img
-                  class="rounded-circle img-fluid shadow my-3"
+                  class="rounded-circle img-fluid shadow my-3 lazy"
                   width="150px"
-                  loading="lazy"
-                  src="assets/img/thorsten.laux.jpg?h=0b8ea0333c42324907d562ae056e11ed"
+                  data-src="assets/img/thorsten.laux.jpg?h=0b8ea0333c42324907d562ae056e11ed"
                 />
                 <h4 class="card-title">Thorsten Laux, PhD</h4>
                 <p class="card-text text-muted" style="font-weight: 300">
@@ -706,10 +677,9 @@
             <div class="card border-0 card-about-us bg-transparent">
               <div class="card-body text-center">
                 <img
-                  class="rounded-circle img-fluid shadow my-3"
+                  class="rounded-circle img-fluid shadow my-3 lazy"
                   width="150px"
-                  loading="lazy"
-                  src="assets/img/irene.waizenegger.png?h=977aa1a4992d9b871bd9cd33850ba645"
+                  data-src="assets/img/irene.waizenegger.png?h=977aa1a4992d9b871bd9cd33850ba645"
                 />
                 <h4 class="card-title">Irene Waizzeneger, PhD</h4>
                 <p class="card-text text-muted" style="font-weight: 300">Senior Principal Scientist<br />Oncology<br /></p>
@@ -720,10 +690,9 @@
             <div class="card border-0 card-about-us bg-transparent">
               <div class="card-body text-center">
                 <img
-                  class="rounded-circle img-fluid shadow my-3"
+                  class="rounded-circle img-fluid shadow my-3 lazy"
                   width="150px"
-                  loading="lazy"
-                  src="assets/img/photo.bianca.1.png?h=a279d0f044d474cb6343d846f4c25633"
+                  data-src="assets/img/photo.bianca.1.png?h=a279d0f044d474cb6343d846f4c25633"
                 />
                 <h4 class="card-title">Bianca De Leo, PhD</h4>
                 <p class="card-text text-muted" style="font-weight: 300">Women’s Health Expert <br />Pharmacist<br /></p>
@@ -734,10 +703,9 @@
             <div class="card border-0 card-about-us bg-transparent">
               <div class="card-body text-center">
                 <img
-                  class="rounded-circle img-fluid shadow my-3"
+                  class="rounded-circle img-fluid shadow my-3 lazy"
                   width="150px"
-                  loading="lazy"
-                  src="assets/img/me-bw.jpg?h=84057be57a529732d154f7f25cf158f1"
+                  data-src="assets/img/me-bw.jpg?h=84057be57a529732d154f7f25cf158f1"
                 />
                 <h4 class="card-title">Jeremy Bertin</h4>
                 <p class="card-text text-muted" style="font-weight: 300">Web Developer</p>
@@ -748,10 +716,9 @@
             <div class="card border-0 card-about-us bg-transparent">
               <div class="card-body text-center">
                 <img
-                  class="rounded-circle img-fluid shadow my-3"
+                  class="rounded-circle img-fluid shadow my-3 lazy"
                   width="150px"
-                  loading="lazy"
-                  src="assets/img/bernice.bio.image.png?h=510fb49c0cbe0395b08b382ab11bb43c"
+                  data-src="assets/img/bernice.bio.image.png?h=510fb49c0cbe0395b08b382ab11bb43c"
                 />
                 <h4 class="card-title">Bernice Yalley</h4>
                 <p class="card-text text-muted" style="font-weight: 300">International Development Expert</p>
@@ -762,10 +729,9 @@
             <div class="card border-0 card-about-us bg-transparent">
               <div class="card-body text-center">
                 <img
-                  class="rounded-circle img-fluid shadow my-3"
+                  class="rounded-circle img-fluid shadow my-3 lazy"
                   width="150px"
-                  loading="lazy"
-                  src="assets/img/bernice.bio.image.png?h=510fb49c0cbe0395b08b382ab11bb43c"
+                  data-src="assets/img/bernice.bio.image.png?h=510fb49c0cbe0395b08b382ab11bb43c"
                 />
                 <h4 class="card-title">Larisa Semernya</h4>
                 <p class="card-text text-muted" style="font-weight: 300">Partnership Specialist</p>
@@ -776,10 +742,9 @@
             <div class="card border-0 card-about-us bg-transparent">
               <div class="card-body text-center">
                 <img
-                  class="rounded-circle img-fluid shadow my-3"
+                  class="rounded-circle img-fluid shadow my-3 lazy"
                   width="150px"
-                  loading="lazy"
-                  src="assets/img/natana.char.png?h=4ae39ac6dad7a34e9d5892caa96dfe66"
+                  data-src="assets/img/natana.char.png?h=4ae39ac6dad7a34e9d5892caa96dfe66"
                 />
                 <h4 class="card-title">Natan Char</h4>
                 <p class="card-text text-muted" style="font-weight: 300">Creative Designer</p>
@@ -790,7 +755,7 @@
       </div>
     </section>
     <section id="donate">
-      <div class="row m-0 title-section-donate lazy">
+      <div class="row m-0 title-section-donate lazzy">
         <div class="col-12 col-lg-6 offset-lg-6 d-flex d-lg-flex justify-content-center align-items-center">
           <h2 class="display-4 text-center text-light d-flex justify-content-center align-items-center heading-title-section">Donate</h2>
         </div>
@@ -817,35 +782,35 @@
           <div class="col-12 col-md-6 col-lg-4 pb-5">
             <div class="card text-center border-0">
               <div class="card-body d-flex justify-content-center align-items-center">
-                <img class="img-fluid" src="assets/img/euro.10.png?h=66178a4dea576243171abbc1d1ff2c51" width="250px" loading="lazy" />
+                <img class="img-fluid lazy" data-src="assets/img/euro.10.png?h=66178a4dea576243171abbc1d1ff2c51" width="250px" />
               </div>
             </div>
           </div>
           <div class="col-12 col-md-6 col-lg-4 pb-5">
             <div class="card text-center shadow-lg card-donate" style="border: 2px solid #c08269">
               <div class="card-body d-flex justify-content-center align-items-center">
-                <img class="img-fluid" width="250px" src="assets/img/euro.30.png?h=277b1d95d90cb3d125abb3b05d9753cc" loading="lazy" />
+                <img class="img-fluid lazy" width="250px" data-src="assets/img/euro.30.png?h=277b1d95d90cb3d125abb3b05d9753cc" />
               </div>
             </div>
           </div>
           <div class="col-12 col-md-6 col-lg-4 pb-5">
             <div class="card text-center border-0">
               <div class="card-body d-flex justify-content-center align-items-center">
-                <img class="img-fluid" src="assets/img/euro.60.png?h=06a5cfceb40409e89e1e9a7e75f7f1e7" width="250px" loading="lazy" />
+                <img class="img-fluid lazy" data-src="assets/img/euro.60.png?h=06a5cfceb40409e89e1e9a7e75f7f1e7" width="250px" />
               </div>
             </div>
           </div>
           <div class="col-12 col-md-6 col-lg-4 offset-lg-2 pb-5">
             <div class="card text-center d-flex border-0">
               <div class="card-body d-flex justify-content-center align-items-center">
-                <img class="img-fluid" src="assets/img/euro.100.png?h=1cdaa95b8ff6060ab1a847c51ae3a029" width="250px" loading="lazy" />
+                <img class="img-fluid lazy" data-src="assets/img/euro.100.png?h=1cdaa95b8ff6060ab1a847c51ae3a029" width="250px" />
               </div>
             </div>
           </div>
           <div class="col-12 col-md-6 col-lg-4 pb-5">
             <div class="card text-center border-0">
               <div class="card-body d-flex justify-content-center align-items-center">
-                <img class="img-fluid" src="assets/img/euro.500.png?h=821349fd79919c70794a80bc58c6102e" width="250px" loading="lazy" />
+                <img class="img-fluid lazy" data-src="assets/img/euro.500.png?h=821349fd79919c70794a80bc58c6102e" width="250px" />
               </div>
             </div>
           </div>
@@ -895,10 +860,9 @@
                   <!-- End: Links -->
                   <div class="mt-3">
                     <img
-                      class="img-fluid d-inline"
-                      src="assets/img/logo_twc_no%20background.png?h=69c341939250a794a7e0452c18f46fe6"
+                      class="img-fluid d-inline lazy"
+                      data-src="assets/img/logo_twc_no%20background.png?h=69c341939250a794a7e0452c18f46fe6"
                       width="60px"
-                      loading="lazy"
                     /><!-- Start: Copyright -->
                     <p class="d-inline copyright">Together Women Can © 2020</p>
                     <!-- End: Copyright -->
@@ -913,8 +877,11 @@
     <!-- End: Footer Basic -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/js/bootstrap.bundle.min.js"></script>
+
     <script src="assets/js/Off-Canvas-Sidebar-Drawer-Navbar.js?h=d4aa497367d5fdca7d982a4dbe63055b"></script>
+
     <script src="assets/js/Off-Canvas-Sidebar-Drawer-Navbar-1.js?h=dc340fa50e3ca35c4936cb144ef3d790"></script>
+
     <script src="assets/js/script.js.js?h=7ce24ca2f99486fc80c3e5d6b7de62fe"></script>
     <script src="assets/js/scroll-smooth.js?h=7a5a019cb3a961b37fd80f2140cd9133"></script>
   </body>
