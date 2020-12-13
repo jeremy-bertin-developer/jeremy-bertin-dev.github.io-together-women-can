@@ -18,7 +18,7 @@
 }
 
 header {
-  background: url("../../assets/img/ken-steven-9pForwRXkA4-unsplash.jpg?h=3b9e53d194615eb5be3f051838820152") center / cover no-repeat;
+  background: url('../../assets/img/ken-steven-9pForwRXkA4-unsplash.jpg?h=3b9e53d194615eb5be3f051838820152') center / cover no-repeat;
   width: 100%;
   min-height: 100vh;
   filter: grayscale(40%);
@@ -53,39 +53,21 @@ header {
   margin: 0px;
 }
 
-.title-section {
-  height: 85px;
-  background: url("../../assets/img/ninno-jackjr-CG6Gd__QIOY-unsplash.copie.png?h=cc17d687a3a1e68eeebfb3a6a9a68947") center / cover no-repeat;
-}
-
 .solution-row {
   margin: 0px;
 }
 
 .title-section-our-focus {
   height: 300px;
-  background: url("../../assets/img/annie-spratt-m0DUL38R49Y-unsplash.1.png?h=c78965b6d4b250ec7d6cdcd5abe1e5e6") top / cover no-repeat;
-}
-
-#our-mission-vision {
-  background: #f9f9f9;
+  background: url('../../assets/img/annie-spratt-m0DUL38R49Y-unsplash.1.jpg') top / cover no-repeat;
 }
 
 .row-our-mission-vision {
   margin: 0px;
 }
 
-.row-about-us {
-}
-
 .card-about-us {
   height: 100%;
-}
-
-.avatar-about-us {
-}
-
-:root {
 }
 
 @media (max-width: 992px) {
@@ -94,15 +76,9 @@ header {
   }
 }
 
-@media (max-width: 992px) {
-  #our-mission-vision {
-    /*padding-top: 60px;*/
-  }
-}
-
 .title-selection-challenge {
   height: 300px;
-  background: url("../../assets/img/annie-spratt-1YnBzhJISg4-unsplash.1.png?h=83e871f799e0172ca2a0f731d1249eba") top / cover no-repeat;
+  background: url('../../assets/img/annie-spratt-1YnBzhJISg4-unsplash.1.jpg') top / cover no-repeat;
 }
 
 @media (max-width: 992px) {
@@ -113,7 +89,7 @@ header {
 
 .title-section-solution {
   height: 300px;
-  background: url("../../assets/img/annie-spratt-jmECplToD0c-unsplash.2.png?h=6254b66cd5b3c9de0e6cf6d0e8365969") top / cover no-repeat;
+  background: url('../../assets/img/annie-spratt-jmECplToD0c-unsplash.2.jpg') top / cover no-repeat;
 }
 
 @media (max-width: 992px) {
@@ -122,14 +98,9 @@ header {
   }
 }
 
-title-section-our-mission {
-  height: 300px;
-  background: url("../../assets/img/annie-spratt-SPS796v4KmM-unsplash.1.png?h=440bee825a163a744a6803f18a9314d4") top / cover no-repeat;
-}
-
 .title-section-our-mission {
   height: 300px;
-  background: url("../../assets/img/maxime-niyomwungeri-z-lNmXoXt-k-unsplash.1.png?h=5cacd5b887072c356af778038b5aa48d") top / cover no-repeat;
+  background: url('../../assets/img/maxime-niyomwungeri-z-lNmXoXt-k-unsplash.1.jpg') top / cover no-repeat;
 }
 
 @media (max-width: 992px) {
@@ -140,7 +111,7 @@ title-section-our-mission {
 
 .title-section-our-impact {
   height: 300px;
-  background: url("../../assets/img/annie-spratt-SPS796v4KmM-unsplash.2.png?h=809e24d878ff514f4b0fbc458b98ef12") center / cover no-repeat;
+  background: url('../../assets/img/annie-spratt-SPS796v4KmM-unsplash.2.jpg') center / cover no-repeat;
 }
 
 @media (max-width: 992px) {
@@ -151,7 +122,7 @@ title-section-our-mission {
 
 .title-section-partners {
   height: 300px;
-  background: url("../../assets/img/womanizer-wow-tech-8oB43mw658c-unsplash.1.png?h=10bbd30f2cb5ca61a16e6b81e1a93f0d") center / cover no-repeat;
+  background: url('../../assets/img/womanizer-wow-tech-8oB43mw658c-unsplash.1.jpg') center / cover no-repeat;
 }
 
 @media (max-width: 992px) {
@@ -162,7 +133,7 @@ title-section-our-mission {
 
 .title-section-about-us {
   height: 300px;
-  background: url("../../assets/img/hudson-hintze-vpxeE7s-my4-unsplash.2.png?h=13ec02aff297c80216e2f2fa0a1cbd6c") center / cover no-repeat;
+  background: url('../../assets/img/hudson-hintze-vpxeE7s-my4-unsplash.1.jpg') center / cover no-repeat;
 }
 
 @media (max-width: 992px) {
@@ -173,7 +144,7 @@ title-section-our-mission {
 
 .title-section-donate {
   height: 300px;
-  background: url("../../assets/img/kat-yukawa-K0E6E0a0R3A-unsplash.1.png?h=c57c25e5f29aeea7961ac0ecff5da503") center / cover no-repeat;
+  background: url('../../assets/img/kat-yukawa-K0E6E0a0R3A-unsplash.1.jpg') center / cover no-repeat;
 }
 
 @media (max-width: 992px) {
@@ -235,9 +206,6 @@ body {
   line-height: 40px;
 }
 
-#our-focus {
-}
-
 .heading-title-section {
   font-family: Montserrat, sans-serif;
   font-weight: 500;
@@ -267,10 +235,9 @@ body {
 }
 
 .text-brown {
-  color: #C08269;
+  color: #c08269;
 }
 
 .lazy {
   background-image: none;
 }
-
