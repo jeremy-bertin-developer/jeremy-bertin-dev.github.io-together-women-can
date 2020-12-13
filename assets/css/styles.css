@@ -1,3 +1,17 @@
+body {
+  width: 100%;
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+  color: #212529;
+}
+
+header {
+  background: url('../../assets/img/ken-steven-9pForwRXkA4-unsplash.webp') center / cover no-repeat;
+  width: 100%;
+  min-height: 100vh;
+  filter: grayscale(40%);
+}
+
 .icon-arrow-up-wrapper {
   position: fixed;
   z-index: 100;
@@ -6,7 +20,7 @@
 }
 
 .icon-arrow-up {
-  font-size: 50px;
+  font-size: 50px !important;
   color: #353842;
 }
 
@@ -17,183 +31,8 @@
   background: #c08269;
 }
 
-header {
-  background: url('../../assets/img/ken-steven-9pForwRXkA4-unsplash.webp') center / cover no-repeat;
-  width: 100%;
-  min-height: 100vh;
-  filter: grayscale(40%);
-}
-
 .header-container {
   margin: 0px;
-  width: 100%;
-}
-
-.header-row {
-  min-height: 100%;
-  margin-right: 0px;
-  margin-left: 0px;
-}
-
-.header-col-separation {
-  height: 250px;
-}
-
-.header-heading {
-  margin-top: 50px;
-}
-
-.card-title-twc {
-  color: #c08269;
-}
-
-#problem {
-  height: 400px;
-  background: #f9f9f9;
-  padding-top: 60px;
-}
-
-.problem-row {
-  margin: 0px;
-}
-
-.solution-row {
-  margin: 0px;
-}
-
-.title-section-our-focus {
-  height: 300px;
-  background: url('../../assets/img/annie-spratt-m0DUL38R49Y-unsplash.1.webp') top / cover no-repeat;
-}
-
-.row-our-mission-vision {
-  margin: 0px;
-}
-
-.card-about-us {
-  height: 100%;
-}
-
-@media (max-width: 992px) {
-  .title-section-our-focus {
-    height: 150px;
-  }
-}
-
-.title-selection-challenge {
-  height: 300px;
-  background: url('../../assets/img/annie-spratt-1YnBzhJISg4-unsplash.1.webp') top / cover no-repeat;
-}
-
-@media (max-width: 992px) {
-  .title-selection-challenge {
-    height: 150px;
-  }
-}
-
-.title-section-solution {
-  height: 300px;
-  background: url('../../assets/img/annie-spratt-jmECplToD0c-unsplash.2.webp') top / cover no-repeat;
-}
-
-@media (max-width: 992px) {
-  .title-section-solution {
-    height: 150px;
-  }
-}
-
-.title-section-our-mission {
-  height: 300px;
-  background: url('../../assets/img/maxime-niyomwungeri-z-lNmXoXt-k-unsplash.1.webp') top / cover no-repeat;
-}
-
-@media (max-width: 992px) {
-  .title-section-our-mission {
-    height: 150px;
-  }
-}
-
-.title-section-our-impact {
-  height: 300px;
-  background: url('../../assets/img/annie-spratt-SPS796v4KmM-unsplash.2.webp') center / cover no-repeat;
-}
-
-@media (max-width: 992px) {
-  .title-section-our-impact {
-    height: 150px;
-  }
-}
-
-.title-section-partners {
-  height: 300px;
-  background: url('../../assets/img/womanizer-wow-tech-8oB43mw658c-unsplash.1.webp') center / cover no-repeat;
-}
-
-@media (max-width: 992px) {
-  .title-section-partners {
-    height: 150px;
-  }
-}
-
-.title-section-about-us {
-  height: 300px;
-  background: url('../../assets/img/hudson-hintze-vpxeE7s-my4-unsplash.1.webp') center / cover no-repeat;
-}
-
-@media (max-width: 992px) {
-  .title-section-about-us {
-    height: 150px;
-  }
-}
-
-.title-section-donate {
-  height: 300px;
-  background: url('../../assets/img/kat-yukawa-K0E6E0a0R3A-unsplash.1.webp') center / cover no-repeat;
-}
-
-@media (max-width: 992px) {
-  .title-section-donate {
-    height: 100px;
-  }
-}
-
-.our-focus-row {
-  min-height: 100%;
-  margin-right: 0px;
-  margin-left: 0px;
-}
-
-.card-focus {
-  height: 100%;
-}
-
-.card-donate {
-  border: 2px solid #c08269;
-}
-
-body {
-  width: 100%;
-  font-family: Montserrat, sans-serif;
-  font-weight: 500;
-  color: #212529;
-}
-
-.navbar-brand {
-  margin: 0px;
-  padding: 0px;
-}
-
-.navbar-brand-small {
-  margin: 0px;
-  padding: 0px;
-  width: 25px;
-}
-
-.navbar-brand-big {
-  width: 60px;
-}
-
-#navcol-1 {
   width: 100%;
 }
 
@@ -217,6 +56,73 @@ body {
 .heading-title-section {
   font-family: Montserrat, sans-serif;
   font-weight: 500;
+}
+
+.card-title-twc {
+  color: #c08269;
+}
+
+.navbar-brand {
+  margin: 0px;
+  padding: 0px;
+}
+
+.navbar-brand-small {
+  margin: 0px;
+  padding: 0px;
+  width: 25px;
+}
+
+.navbar-brand-big {
+  width: 60px;
+}
+
+#navcol-1 {
+  width: 100%;
+}
+
+.title-section-our-focus {
+  height: 300px;
+  background: url('../../assets/img/annie-spratt-m0DUL38R49Y-unsplash.1.webp') top / cover no-repeat;
+}
+
+.title-selection-challenge {
+  height: 300px;
+  background: url('../../assets/img/annie-spratt-1YnBzhJISg4-unsplash.1.webp') top / cover no-repeat;
+}
+
+.title-section-solution {
+  height: 300px;
+  background: url('../../assets/img/annie-spratt-jmECplToD0c-unsplash.2.webp') top / cover no-repeat;
+}
+
+.title-section-our-mission {
+  height: 300px;
+  background: url('../../assets/img/maxime-niyomwungeri-z-lNmXoXt-k-unsplash.1.webp') top / cover no-repeat;
+}
+
+.title-section-our-impact {
+  height: 300px;
+  background: url('../../assets/img/annie-spratt-SPS796v4KmM-unsplash.2.webp') center / cover no-repeat;
+}
+
+.title-section-partners {
+  height: 300px;
+  background: url('../../assets/img/womanizer-wow-tech-8oB43mw658c-unsplash.1.webp') center / cover no-repeat;
+}
+
+.title-section-about-us {
+  height: 300px;
+  background: url('../../assets/img/hudson-hintze-vpxeE7s-my4-unsplash.1.webp') center / cover no-repeat;
+}
+
+.title-section-donate {
+  height: 300px;
+  background: url('../../assets/img/kat-yukawa-K0E6E0a0R3A-unsplash.1.webp') center / cover no-repeat;
+}
+
+.card-donate {
+  border: 2px solid #c08269 !important;
 }
 
 .description-full-brown {
@@ -272,4 +178,18 @@ body {
 
 .width-300 {
   width: 300px;
+}
+
+/* media query */
+@media (max-width: 992px) {
+  .title-section-our-focus,
+  .title-selection-challenge,
+  .title-section-solution,
+  .title-section-our-mission,
+  .title-section-our-impact,
+  .title-section-partners,
+  .title-section-about-us,
+  .title-section-donate {
+    height: 150px;
+  }
 }
