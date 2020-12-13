@@ -75,6 +75,10 @@ SECTION 5: ADVANCED - Drawer on page style (overlay, push, slide) and optional c
     ONE BUG (sorta): you can technically cause your site to be inaccessible. This feature works using a class set on the body to indicate that the drawer is open. That class is only set via JavaScript when the menu is opened. Technically, if you set the drawer to always be open with the "Expanded" setting and shrink your screen below that point to allow yourself to open it via JavaScript, then re-expand your window... you will have the open class on your body tag causing the fade to be rendered but the close-menu option will have disappeared, so there is no way to remove the class... aside from re-shrinking your screen. I hate to say "just don't do that" but I do feel this is a slim edge case and "fixing" it would be more work than it is worth in my opinion... for now at least. The fix would require another manual setting of the "Expanded" setting on the fade div or even the body tag. Perhaps I'll come back and add that some day.
 **/
 
+$('.nav-link-classic, .icon-arrow-up-wrapper').on('click',function() {
+    closeDrawer();
+});
+
 let isOpen = function(drawer) {
     return drawer.attr('data-open-drawer') == '1' || drawer.hasClass('open');
 },

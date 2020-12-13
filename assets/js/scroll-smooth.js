@@ -1,5 +1,10 @@
 
-   $('a[href^="#"]').on('click',function (e) {
+   $('a[href^="#"]')
+    .not('[href="#"]')
+    .not('[href="#0"]')
+    .not('[href="https"]')
+    .not('[href="co-founder-note.html"]')
+    .on('click',function (e) {
     if (window.matchMedia('(min-width: 1200px)').matches) {
          var target = this.hash,
      $target = $(target);
