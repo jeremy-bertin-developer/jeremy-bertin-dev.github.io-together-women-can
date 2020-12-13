@@ -18,7 +18,7 @@
 }
 
 header {
-  background: url('../../assets/img/ken-steven-9pForwRXkA4-unsplash.jpg?h=3b9e53d194615eb5be3f051838820152') center / cover no-repeat;
+  background: url('../../assets/img/ken-steven-9pForwRXkA4-unsplash.webp') center / cover no-repeat;
   width: 100%;
   min-height: 100vh;
   filter: grayscale(40%);
@@ -59,7 +59,7 @@ header {
 
 .title-section-our-focus {
   height: 300px;
-  background: url('../../assets/img/annie-spratt-m0DUL38R49Y-unsplash.1.jpg') top / cover no-repeat;
+  background: url('../../assets/img/annie-spratt-m0DUL38R49Y-unsplash.1.webp') top / cover no-repeat;
 }
 
 .row-our-mission-vision {
@@ -78,7 +78,7 @@ header {
 
 .title-selection-challenge {
   height: 300px;
-  background: url('../../assets/img/annie-spratt-1YnBzhJISg4-unsplash.1.jpg') top / cover no-repeat;
+  background: url('../../assets/img/annie-spratt-1YnBzhJISg4-unsplash.1.webp') top / cover no-repeat;
 }
 
 @media (max-width: 992px) {
@@ -89,7 +89,7 @@ header {
 
 .title-section-solution {
   height: 300px;
-  background: url('../../assets/img/annie-spratt-jmECplToD0c-unsplash.2.jpg') top / cover no-repeat;
+  background: url('../../assets/img/annie-spratt-jmECplToD0c-unsplash.2.webp') top / cover no-repeat;
 }
 
 @media (max-width: 992px) {
@@ -100,7 +100,7 @@ header {
 
 .title-section-our-mission {
   height: 300px;
-  background: url('../../assets/img/maxime-niyomwungeri-z-lNmXoXt-k-unsplash.1.jpg') top / cover no-repeat;
+  background: url('../../assets/img/maxime-niyomwungeri-z-lNmXoXt-k-unsplash.1.webp') top / cover no-repeat;
 }
 
 @media (max-width: 992px) {
@@ -111,7 +111,7 @@ header {
 
 .title-section-our-impact {
   height: 300px;
-  background: url('../../assets/img/annie-spratt-SPS796v4KmM-unsplash.2.jpg') center / cover no-repeat;
+  background: url('../../assets/img/annie-spratt-SPS796v4KmM-unsplash.2.webp') center / cover no-repeat;
 }
 
 @media (max-width: 992px) {
@@ -122,7 +122,7 @@ header {
 
 .title-section-partners {
   height: 300px;
-  background: url('../../assets/img/womanizer-wow-tech-8oB43mw658c-unsplash.1.jpg') center / cover no-repeat;
+  background: url('../../assets/img/womanizer-wow-tech-8oB43mw658c-unsplash.1.webp') center / cover no-repeat;
 }
 
 @media (max-width: 992px) {
@@ -133,7 +133,7 @@ header {
 
 .title-section-about-us {
   height: 300px;
-  background: url('../../assets/img/hudson-hintze-vpxeE7s-my4-unsplash.1.jpg') center / cover no-repeat;
+  background: url('../../assets/img/hudson-hintze-vpxeE7s-my4-unsplash.1.webp') center / cover no-repeat;
 }
 
 @media (max-width: 992px) {
@@ -144,7 +144,7 @@ header {
 
 .title-section-donate {
   height: 300px;
-  background: url('../../assets/img/kat-yukawa-K0E6E0a0R3A-unsplash.1.jpg') center / cover no-repeat;
+  background: url('../../assets/img/kat-yukawa-K0E6E0a0R3A-unsplash.1.webp') center / cover no-repeat;
 }
 
 @media (max-width: 992px) {
