@@ -1,3 +1,17 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: Montserrat, sans-serif !important;
+}
+
+html {
+  font-family: Montserrat, sans-serif !important;
+}
+
 body {
   width: 100%;
   font-family: Montserrat, sans-serif;
@@ -20,7 +34,7 @@ header {
 }
 
 .icon-arrow-up {
-  font-size: 50px !important;
+  font-size: 50px;
   color: #353842;
 }
 
@@ -38,7 +52,7 @@ header {
 
 .header-heading {
   margin-top: 0px;
-  font-weight: 500;
+  font-weight: 500 !important;
 }
 
 .info-text-header {
@@ -54,8 +68,7 @@ header {
 }
 
 .heading-title-section {
-  font-family: Montserrat, sans-serif;
-  font-weight: 500;
+  font-weight: 500 !important;
 }
 
 .card-title-twc {
