@@ -6,6 +6,7 @@ h5,
 h6,
 p {
   font-family: Montserrat, sans-serif !important;
+  font-display: swap;
 }
 
 html {
