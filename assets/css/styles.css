@@ -207,3 +207,9 @@ header {
     height: 150px;
   }
 }
+
+@media (max-width: 576px) {
+  .title-section-our-mission {
+    height: 250px;
+  }
+}
