@@ -80,3 +80,9 @@ document.addEventListener("DOMContentLoaded", function() {
   window.addEventListener("resize", lazyload);
   window.addEventListener("orientationChange", lazyload);
 });
+
+$('.twc-tooltip').tooltip({
+  'delay': { show: 0, hide: 1000 },
+  'placement': 'bottom'
+})
+
