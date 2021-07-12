@@ -194,6 +194,10 @@ header {
   width: 300px;
 }
 
+#donate-button {
+  height: 100px;
+}
+
 /* media query */
 @media (max-width: 992px) {
   .title-section-our-focus,
